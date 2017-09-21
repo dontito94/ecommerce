@@ -70,8 +70,9 @@
     ],
     "prefer-const": true,
     "quotemark": [
-      true,
-      "single"
+      true
+//      "double",
+//      "single"
     ],
     "radix": true,
     "semicolon": [
@@ -95,7 +96,7 @@
     "unified-signatures": true,
     "variable-name": false,
     "whitespace": [
-      true,
+      false,
       "check-branch",
       "check-decl",
       "check-operator",

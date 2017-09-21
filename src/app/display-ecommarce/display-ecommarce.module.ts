@@ -8,12 +8,20 @@ import { AccountComponent } from './account/account.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ProductComponent } from './product/product.component';
 import { SingleComponent } from './single/single.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
     CommonModule,
     DisplayEcommarceRoutingModule
   ],
-  declarations: [EcommarceHomeComponent, ContactUsComponent, AccountComponent, CheckoutComponent, ProductComponent, SingleComponent]
+  declarations: [
+    EcommarceHomeComponent,
+    ContactUsComponent,
+    AccountComponent,
+    CheckoutComponent,
+    ProductComponent,
+    SingleComponent,
+    HomeComponent]
 })
 export class DisplayEcommarceModule { }

@@ -9,10 +9,12 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { ProductComponent } from './product/product.component';
 import { SingleComponent } from './single/single.component';
 import { HomeComponent } from './home/home.component';
+import {SharedModule} from "../shared/shared.module";
 
 @NgModule({
   imports: [
     CommonModule,
+    SharedModule,
     DisplayEcommarceRoutingModule
   ],
   declarations: [

@@ -19,9 +19,20 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "./assets/css/style.css",
+        "./assets/css/owl.carousel.css",
+        "./assets/css/flexslider.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "./assets/js/simpleCart.min.js",
+        "./assets/js/bootstrap-3.1.1.min.js",
+        "./assets/js/imagezoom.js",
+        "./assets/js/jquery.flexslider.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

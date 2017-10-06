@@ -24,6 +24,8 @@
         "./assets/css/style.css",
         "./assets/css/owl.carousel.css",
         "./assets/css/flexslider.css",
+        "./assets/css/jquery-ui.css",
+        "./assets/css/form.css",
         "styles.css"
       ],
       "scripts": [
@@ -31,6 +33,10 @@
         "./assets/js/simpleCart.min.js",
         "./assets/js/bootstrap-3.1.1.min.js",
         "./assets/js/imagezoom.js",
+        "./assets/js/jquery.jscrollpane.min.js",
+        "./assets/js/jquery.mousewheel.js",
+        "./assets/js/jquery-ui.min.js",
+        "./assets/js/toogle.js",
         "./assets/js/jquery.flexslider.js"
       ],
       "environmentSource": "environments/environment.ts",

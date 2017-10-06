@@ -27,7 +27,7 @@
         "styles.css"
       ],
       "scripts": [
-        "../node_modules/jquery/dist/jquery.min.js",
+        "./assets/js/jquery.min.js",
         "./assets/js/simpleCart.min.js",
         "./assets/js/bootstrap-3.1.1.min.js",
         "./assets/js/imagezoom.js",

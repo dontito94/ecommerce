@@ -7,6 +7,8 @@ import {SingleComponent} from "./single/single.component";
 import {ProductComponent} from "./product/product.component";
 import {CheckoutComponent} from "./checkout/checkout.component";
 import {AccountComponent} from "./account/account.component";
+import {LoginComponent} from "../shared/login/login.component";
+import {RegisterComponent} from "../shared/register/register.component";
 
 const routes: Routes = [
   {
@@ -18,7 +20,9 @@ const routes: Routes = [
       {path: 'product', component: ProductComponent},
       {path: 'contact-us', component: ContactUsComponent},
       {path: 'checkout', component: CheckoutComponent},
-      {path: 'account', component: AccountComponent}
+      {path: 'account', component: AccountComponent},
+      {path: 'login', component: LoginComponent},
+      {path: 'register', component:RegisterComponent}
     ]
   }
 ];

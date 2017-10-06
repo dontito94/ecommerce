@@ -10,6 +10,7 @@ import { ProductComponent } from './product/product.component';
 import { SingleComponent } from './single/single.component';
 import { HomeComponent } from './home/home.component';
 import {SharedModule} from "../shared/shared.module";
+import { SideSingleComponent } from './side-single/side-single.component';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import {SharedModule} from "../shared/shared.module";
     CheckoutComponent,
     ProductComponent,
     SingleComponent,
-    HomeComponent]
+    HomeComponent,
+    SideSingleComponent]
 })
 export class DisplayEcommarceModule { }
